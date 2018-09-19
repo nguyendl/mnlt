@@ -6,7 +6,7 @@
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  border: none;
+  border: 1px solid $primary;
   border-radius: 300px;
   @include sans-serif-font;
 }
@@ -17,7 +17,7 @@
 
 .btn-primary {
   background-color: $primary;
-  border-color: $primary;
+  //border-color: $black;
   &:hover,
   &:focus,
   &:active {
@@ -26,6 +26,6 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 250,.5) !important;
   }
 }

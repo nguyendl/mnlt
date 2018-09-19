@@ -408,7 +408,7 @@ input[type=text], input[type=password] {
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  border: none;
+  border: 1px solid #00CEB8;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -419,7 +419,6 @@ input[type=text], input[type=password] {
 
 .btn-primary {
   background-color: #00CEB8;
-  border-color: #00CEB8;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -428,6 +427,6 @@ input[type=text], input[type=password] {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 250, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 250, 0.5) !important;
 }
